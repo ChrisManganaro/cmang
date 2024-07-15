@@ -12,11 +12,13 @@ function pad(
 
   if (direction === 'start') {
     return str.padStart(length, padString);
-  } else if (direction === 'end') {
-    return str.padEnd(length, padString);
-  } else {
-    throw new Error('Invalid direction, use "start" or "end"');
   }
+
+  if (direction === 'end') {
+    return str.padEnd(length, padString);
+  }
+
+  throw new Error('Invalid direction, use "start" or "end"');
 }
 
 export default pad;

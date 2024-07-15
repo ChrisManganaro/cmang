@@ -27,7 +27,7 @@
         "specifierSource": "conventional-commits",
         "currentVersionResolver": "git-tag",
         "fallbackCurrentVersionResolver": "disk",
-        "packageRoot": "dist/{projectName}"
+        "packageRoot": "dist/libs/{projectName}"
       }
     }
   },
