@@ -14,6 +14,10 @@
     ],
     "sharedGlobals": []
   },
+  "release": {
+    "projectsRelationship": "independent",
+    "releaseTagPattern": "release/{projectName}/{version}"
+  },
   "nxCloudAccessToken": "YmIzMDZkMGEtYzVhNy00NzQyLWE1NjctMjU3ZDUwMjNhNGRmfHJlYWQtd3JpdGU=",
   "targetDefaults": {
     "@nx/vite:build": {
