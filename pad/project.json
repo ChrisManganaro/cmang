@@ -9,7 +9,7 @@
       "executor": "@nx/vite:build",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/pad",
+        "outputPath": "dist/libs/pad",
         "main": "pad/src/index.ts",
         "tsConfig": "pad/tsconfig.lib.json",
         "assets": ["pad/*.md"]
