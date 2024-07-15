@@ -1,0 +1,19 @@
+{
+  "name": "pad",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "pad/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/vite:build",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/pad",
+        "main": "pad/src/index.ts",
+        "tsConfig": "pad/tsconfig.lib.json",
+        "assets": ["pad/*.md"]
+      }
+    }
+  }
+}
